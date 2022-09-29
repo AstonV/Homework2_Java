@@ -22,7 +22,7 @@ public class BusinessTest {
 
         // create new executive and display their information
         System.out.println("Executive");
-        Executive executive = new Executive("Danh", "Pham", address1, 000001,
+        Executive executive = new Executive("Binh", "Vu", address1, 000001,
                 250000.00, 15000.00, "1234-56-7891"); executive.introduce(displaySSN);
         System.out.printf("Paid: $%.2f", executive.computePay());
 
